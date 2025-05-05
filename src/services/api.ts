@@ -33,7 +33,7 @@ api.interceptors.response.use(
       error.response?.data?.message || "Ocurrió un error. Por favor intenta nuevamente.";
 
     if (error.response?.status === 401) {
-      AuthService.clearToken();
+      AuthService.clearAuth();
       window.location.href = "/login";
     }
 
