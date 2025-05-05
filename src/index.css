@@ -37,3 +37,17 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #000;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 980px) {
+  .container {
+    max-width: 920px;
+    min-width: 920px;
+  }
+}
