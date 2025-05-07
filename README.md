@@ -46,3 +46,37 @@ Create an app where users can register and share recipes.
 ### Technical requirement completed
 
 - [x] Use any JavaScript technology.
+
+# Screenshots
+
+- App demo video
+
+Click [here](https://drive.google.com/file/d/1ZGcsqAUvnkqcTMzRPxOB7-777TIkRGYt/view?usp=sharing) to watch a video showcasing the app's features.
+
+- Home
+
+![](public/screenshots/home.jpg)
+
+- All recipes
+
+![](public/screenshots/all-recipes.jpg)
+
+- Auth forms
+
+|register|login|
+|:-------:|:-----:|
+|<img src="public/screenshots/register-form.jpg" width="auto" height="auto">|<img src="public/screenshots/login-form.jpg" width="auto" height="auto">|
+
+- Dashboard
+
+![](public/screenshots/dashboard.jpg)
+
+- Recipe details
+
+![](public/screenshots/recipe-details.jpg)
+
+- Recipe forms
+
+|update|create|
+|:-------:|:-----:|
+|<img src="public/screenshots/edit-recipe-form.jpg" width="auto" height="auto">|<img src="public/screenshots/create-recipe-form.jpg" width="auto" height="auto">|
