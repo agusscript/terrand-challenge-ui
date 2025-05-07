@@ -18,7 +18,11 @@ export default function Home() {
           </p>
           <div className="flex gap-2 items-center justify-center m-auto">
             <Link to="/recipe/all">
-              <Button>Explorar Recetas</Button>
+              <Button
+                className="bg-[#005A9C] hover:bg-[#214e6e]"
+              >
+                Explorar Recetas
+              </Button>
             </Link>
             <Link to="/recipe/create">
               <Button>Publicar Receta</Button>

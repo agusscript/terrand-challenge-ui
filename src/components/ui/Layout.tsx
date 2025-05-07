@@ -38,7 +38,10 @@ export default function Layout({ children, showNav = true, isAuthenticated = fal
                       </Button>
                     </Link>
                     <Link to="/">
-                      <Button onClick={handleLogout}>
+                      <Button
+                        onClick={handleLogout}
+                        className="bg-[#9e1b32] hover:bg-[#8B0000]"
+                      >
                         Cerrar Sesión
                       </Button>
                     </Link>
@@ -51,7 +54,11 @@ export default function Layout({ children, showNav = true, isAuthenticated = fal
                       </Button>
                     </Link>
                     <Link to="/register">
-                      <Button>Registrarse</Button>
+                      <Button
+                        className="bg-[#005A9C] hover:bg-[#214e6e]"
+                      >
+                        Registrarse
+                      </Button>
                     </Link>
                   </>
                 )}

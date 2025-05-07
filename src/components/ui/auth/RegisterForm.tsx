@@ -77,13 +77,17 @@ export default function RegisterForm({ handleSubmit, loading }: IRegisterFormPro
               />
             </div>
             <div className="pt-5">
-              <AuthButton isLoading={loading}>
+              <AuthButton
+                isLoading={loading}
+                className="bg-[#005A9C] hover:bg-[#214e6e]"
+              >
                 Registrarse
               </AuthButton>
               <AuthSuggestion
                 text="¿Ya tienes una cuenta?"
                 linkName="Iniciar Sesión"
                 redirectTo="/login"
+                className="text-[#005A9C] hover:text-[#2e5e80]"
               />
             </div>
           </Form>
