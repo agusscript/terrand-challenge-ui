@@ -1,9 +1,10 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 import { AuthService } from "./authService";
+import { API_URL } from "../constants/constants";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: API_URL,
 });
 
 api.interceptors.request.use(
