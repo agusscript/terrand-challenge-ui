@@ -25,18 +25,24 @@ export default function Dashboard() {
     <Layout showNav={true} isAuthenticated={isAuthenticated}>
       <section className="px-4 py-6 max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold mb-2">¡Hola {userData?.name}!</h1>
-        <p className="text-gray-600 mb-8">Estas son tus recetas:</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {recipes.map((recipe) => (
-            <RecipeCard
-              key={recipe.id}
-              recipe={recipe}
-              isDeleting={isLoading}
-              isAuthenticated={isAuthenticated}
-              onDelete={deleteRecipe}
-            />
-          ))}
-        </div>
+        {recipes.length > 0 && <p className="text-gray-600 mb-8">Estas son tus recetas:</p>}
+        {recipes.length === 0 ? (
+          <div className="text-center text-gray-500 text-lg mt-18">
+            Aún no tienes recetas creadas.
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recipes.map((recipe) => (
+              <RecipeCard
+                key={recipe.id}
+                recipe={recipe}
+                isDeleting={isLoading}
+                isAuthenticated={isAuthenticated}
+                onDelete={deleteRecipe}
+              />
+            ))}
+          </div>
+        )}
       </section>
     </Layout>
   );
