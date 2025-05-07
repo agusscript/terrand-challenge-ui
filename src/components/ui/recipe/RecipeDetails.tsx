@@ -7,7 +7,7 @@ interface IRecipeDetailsProps {
 }
 
 export default function RecipeDetails({ recipe }: IRecipeDetailsProps) {
-  const { title, description, ingredients, imagePath } = recipe;
+  const { title, description, ingredients, imagePath, user } = recipe;
 
   return (
     <div className="max-w-3xl mx-auto mt-8 p-6 bg-white rounded-xl shadow-md">
@@ -32,6 +32,10 @@ export default function RecipeDetails({ recipe }: IRecipeDetailsProps) {
           <li key={idx}>{ingredient}</li>
         ))}
       </ul>
+
+      <div className="mt-10 text-sm text-gray-500 text-left">
+        Receta creada por {user.name}
+      </div>
     </div>
   );
 }

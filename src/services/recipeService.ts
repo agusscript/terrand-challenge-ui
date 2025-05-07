@@ -1,3 +1,4 @@
+import { User } from "../context/AuthContext";
 import { api } from "./api"
 
 export interface Recipe {
@@ -6,7 +7,7 @@ export interface Recipe {
   description: string;
   ingredients: string[];
   imagePath: string;
-  userId: string;
+  user: User;
   deletedAt: string;
 }
 
