@@ -65,7 +65,7 @@ Click [here](https://drive.google.com/file/d/1ZGcsqAUvnkqcTMzRPxOB7-777TIkRGYt/v
 
 |register|login|
 |:-------:|:-----:|
-|<img src="public/screenshots/register-form.jpg" width="auto" height="auto">|<img src="public/screenshots/login-form.jpg" width="auto" height="auto">|
+|<img src="public/screenshots/register-form.jpg" width="400" height="600">|<img src="https://raw.githubusercontent.com/agusscript/terrand-challenge-ui/refs/heads/main/public/screenshots/login-form.jpg" width="400" height="600">|
 
 - Dashboard
 
@@ -79,4 +79,4 @@ Click [here](https://drive.google.com/file/d/1ZGcsqAUvnkqcTMzRPxOB7-777TIkRGYt/v
 
 |update|create|
 |:-------:|:-----:|
-|<img src="public/screenshots/edit-recipe-form.jpg" width="auto" height="auto">|<img src="public/screenshots/create-recipe-form.jpg" width="auto" height="auto">|
+|<img src="public/screenshots/edit-recipe-form.jpg" width="500" height="800">|<img src="https://raw.githubusercontent.com/agusscript/terrand-challenge-ui/refs/heads/main/public/screenshots/create-recipe-form.jpg" width="500" height="800">|
